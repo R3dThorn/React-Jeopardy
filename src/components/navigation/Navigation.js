@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 function Navigation(props) {
     return (
-        <ul>
+        <ul className="Navigation">
             <li>
                 <Link to="/">Home</Link>
             </li>
@@ -12,6 +12,9 @@ function Navigation(props) {
             </li>
             <li>
                 <Link to="/contact">Contact</Link>
+            </li>
+            <li>
+                <Link to="/jeopardy">Jeopardy</Link>
             </li>
         </ul>
     )
